@@ -1,0 +1,334 @@
+/* Global Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DBBAA4;
+}
+
+header {
+    background-color: #22160F;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav{
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #DBBAA4;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    background-color: #22160F;
+    color: #fff;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer .social-media a{
+    color: white;
+}
+
+footer .social-media a:hover {
+    color: #DBBAA4;
+}
+
+footer .social-media{
+    margin-top: -10px;
+}
+
+/* Page-specific Styles */
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Homepage -> Web-Title-Header */
+#web-title-header{
+    background-image: url('imgsrc/header-bg-image.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#website-name-text{
+    margin-left: 100px;
+    margin-top: 120px;
+    width: 1040px;
+    height: 110px;
+}
+
+#web-title-header p{
+    margin-top: 0px;
+    color:#DBBAA4;
+    margin-left: 110px;
+    width: 55%;
+    font-size: 20px;
+}
+
+#web-title-header a{
+    text-decoration: none;
+    color: #DBBAA4;
+    background-color: #1E140E;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+#web-title-header a:hover {
+    text-decoration: none;
+    color: #1E140E;
+    background-color: #DBBAA4;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+/* About Us */
+#about-us-title-header{
+    background-color: #623F2A;
+    height: 300px;
+    position: relative;
+}
+
+#about-us-title-header img{
+    margin-top: -15px;
+    height: 300px;
+    width: 550px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about-us-details{
+    height: 500px;
+    display:flex;
+}
+
+#about-us-details #detail1{
+    width: 100%;
+    padding: 100px;
+    font-size: 20px;
+    text-align: justify;
+    color:#22160F;
+}
+
+#about-us-details #detail2{
+    width: 100%;
+    font-size: 20px;
+    background-color: #CBAB96;
+    color:#22160F;
+    padding: 100px;
+    text-align: justify;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+    nav{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #web-title-header{
+        background-image: url('imgsrc/header-bg-image.png');
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #website-name-text{
+        margin-left: 100px;
+        margin-top: 170px;
+        width: 580px;
+        height: 60px;
+    }
+
+    #web-title-header p{
+        margin-top: 10px;
+        color:#DBBAA4;
+        margin-left: 100px;
+        width: 75%;
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    #web-title-header a{
+        text-decoration: none;
+        color: #DBBAA4;
+        background-color: #1E140E;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    #web-title-header a:hover {
+        text-decoration: none;
+        color: #1E140E;
+        background-color: #DBBAA4;
+        padding: 20px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    #about-us-details{
+        height: 1000px;
+        display:flex;
+    }
+
+    #about-us-details #detail1{
+        width: 100%;
+        padding: 50px;
+        font-size: 25px;
+        text-align: justify;
+        color:#22160F;
+    }
+
+    #about-us-details #detail2{
+        width: 100%;
+        font-size: 25px;
+        background-color: #CBAB96;
+        color:#22160F;
+        padding: 50px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    nav{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #web-title-header{
+        background-image: url('imgsrc/header-bg-image.png');
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #website-name-text{
+        margin-left: 100px;
+        margin-top: 210px;
+        width: 900px;
+        height: 100px;
+    }
+
+    #web-title-header p{
+        margin-top: 15px;
+        color:#DBBAA4;
+        margin-left: 100px;
+        width: 84%;
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    #web-title-header a{
+        text-decoration: none;
+        color: #DBBAA4;
+        background-color: #1E140E;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    #web-title-header a:hover {
+        text-decoration: none;
+        color: #1E140E;
+        background-color: #DBBAA4;
+        padding: 20px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-left: 100px;
+    }
+
+    #about-us-details{
+        height: 700px;
+        display:flex;
+    }
+
+    #about-us-details #detail1{
+        width: 100%;
+        padding: 50px;
+        font-size: 25px;
+        text-align: justify;
+        color:#22160F;
+    }
+
+    #about-us-details #detail2{
+        width: 100%;
+        font-size: 25px;
+        background-color: #CBAB96;
+        color:#22160F;
+        padding: 50px;
+        text-align: justify;
+    }
+}
