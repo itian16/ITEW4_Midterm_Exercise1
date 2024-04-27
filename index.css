@@ -277,16 +277,16 @@ button:hover {
     #website-name-text{
         margin-left: 100px;
         margin-top: 210px;
-        width: 900px;
-        height: 100px;
+        width: 500px;
+        height: 70px;
     }
 
     #web-title-header p{
         margin-top: 15px;
         color:#DBBAA4;
         margin-left: 100px;
-        width: 84%;
-        font-size: 30px;
+        width: 75%;
+        font-size: 20px;
         text-align: justify;
     }
 
@@ -318,14 +318,14 @@ button:hover {
     #about-us-details #detail1{
         width: 100%;
         padding: 50px;
-        font-size: 25px;
+        font-size: 20px;
         text-align: justify;
         color:#22160F;
     }
 
     #about-us-details #detail2{
         width: 100%;
-        font-size: 25px;
+        font-size: 20px;
         background-color: #CBAB96;
         color:#22160F;
         padding: 50px;
