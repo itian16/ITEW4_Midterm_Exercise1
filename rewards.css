@@ -137,3 +137,46 @@ footer .social-media{
         margin: auto;
     }
 }
+
+@media only screen and (min-width: 1200px) {
+    #rewards-section{
+        height: 830px;   
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #rewards-section #section1{
+        width: 100%;
+        padding: 50px;
+        font-size: 25px;
+        background-color: #B8855C;
+        text-align: justify;
+        color:#22160F;
+    }
+
+    #rewards-section #section2{
+        width: 100%;
+        font-size: 25px;
+        background-color: #CB9061;
+        color:#22160F;
+        padding: 50px;
+        text-align: justify;
+    }
+
+    #rewards-section #section3{
+        width: 100%;
+        font-size: 25px;
+        background-color: #D48F58;
+        color:#22160F;
+        padding: 50px;
+        text-align: justify;
+    }
+
+    #rewards-section img{
+        height: 400px;
+        width: 400px;
+        display: block;
+        margin: auto;
+    }
+}
