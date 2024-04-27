@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,11 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
+}
+
+nav{
+    text-align: center;
+    font-size: 20px;
 }
 
 nav ul {
